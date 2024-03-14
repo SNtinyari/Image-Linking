@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      background-color: aquamarine;
+    }
+    h1 {
+      text-align: center;
+    }
+    h2 {
+      margin-top: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+    .grid img {
+      max-width: 100%;
+    }
+    .menu img {
+      margin-top: 20px; 
+      padding: 20px;
+      width: 200px;
+      height: auto;
+    }
+    img {
+        max-width: 100px;
+        height: auto;
+        padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Image Links</h1>
+   
+  <h2>Home</h2>
+  <p>This is an example of immersive Virtual Reality image. This is an example that new era in technology is dawning.</p>
+  <a href="https://unsplash.com/photos/man-wearing-sony-playstation-vr-MxVkWPiJALs-">
+    <img src="img/Gaming.jpg" alt="Immersive Virtual Reality">
+  </a>
+
+  <h2>Nature Gallery</h2>
+  <div class="grid">
+    <a href="https://unsplash.com/photos/forest-trees-jFCViYFYcus">
+      <img src="img/Trail.jpg" alt="A nature trail">
+    </a>
+    <a href="https://unsplash.com/photos/timelapse-photography-of-waterfalls-5-jtsfuaLBw">
+      <img src="img/Waterfall.jpg" alt="A fourteen feet waterfall">
+    </a>
+    <a href="https://unsplash.com/s/photos/nature">
+      <img src="img/Waterfall and Bridge.jpg" alt="Waterfall and a Bridge">
+    </a>
+    <span>Nature is therapeutic</span>
+  </div>
+
+  <h2>Menu</h2>
+  <ul class="menu">
+    <li>
+      <a href="https://unsplash.com/photos/burger-with-fries-8l8Yl2ruUsg">
+        <img src="img/Hamburger+Fries Combo.jpg" alt="Burger+Fries">
+      </a>
+      <span>Burger+Fries</span>
+    </li>
+    <li>
+      <a href="https://unsplash.com/photos/french-fries-with-ketchup-on-white-paper-x903bLrp6zo">
+        <img src="img/Fries.jpg" alt="Delicious Fries">
+      </a>
+      <span>Fries</span>
+    </li>
+    <li>
+      <a href="https://unsplash.com/photos/two-pizzas-on-boxes-nP11TkjxJ7s">
+        <img src="img/pizza.jpg" alt="Pizza">
+      </a>
+      <span>Pizza</span>
+    </li>
+  </ul>
+</body>
+</html>
